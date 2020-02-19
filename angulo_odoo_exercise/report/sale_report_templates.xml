@@ -7,7 +7,7 @@
             <t t-foreach="line_dict" t-as="line">
                 <tr class="bg-200 font-weight-bold o_line_section">
                     <td name="td_section_line" colspan="99">
-                        <span t-esc="line"/>
+                       <span t-field="line.display_name"/>
                     </td>
                     <t t-set="current_section" t-value="line"/>
                     <t t-set="current_subtotal" t-value="0"/>

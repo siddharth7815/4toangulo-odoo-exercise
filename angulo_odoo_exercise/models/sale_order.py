@@ -10,8 +10,8 @@ class SaleOrder(models.Model):
         line_dic = {}
         for line in self.order_line:
             if line.product_id.categ_id.name in line_dic:
-                line_dic[line.product_id.categ_id.name].append(line)
+                line_dic[line.product_id.categ_id].append(line)
             else:
-                line_dic[line.product_id.categ_id.name] = [line]
+                line_dic[line.product_id.categ_id] = [line]
         return line_dic
 
