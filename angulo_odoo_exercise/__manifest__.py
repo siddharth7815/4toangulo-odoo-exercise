@@ -2,7 +2,7 @@
 
 {
     'name': 'Sales Report Enhancement',
-    'version': '1.1',
+    'version': '1.1.0',
     'category': 'Sales/Sales',
     'summary': 'Sales internal machinery',
     'description': """
