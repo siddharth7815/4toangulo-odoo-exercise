@@ -6,7 +6,7 @@
     'category': 'Sales/Sales',
     'summary': 'Sales internal machinery',
     'description': """
-        This module contains adding product's category as a section in quotation and order report.
+        This module contains adding product's  category as a section in quotation and order report.
     """,
     'depends': ['sale_management'],
     'data': [
